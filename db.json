@@ -1,0 +1,23 @@
+{
+  "utilisateurs":[
+      {
+          "id":1,
+          "nom":"Fokou",
+          "prenom":"parfait",
+          "email":"parfait@gmail.com"
+      },
+      {
+          "id":2,
+          "nom":"Fokou",
+          "prenom":"parfait",
+          "email":"parfait@gmail.com"
+      }
+  ],
+  "publication":[
+    {
+      "id":1,
+      "titre":"vengeance",
+      "body":"jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+    }
+  ]
+}
