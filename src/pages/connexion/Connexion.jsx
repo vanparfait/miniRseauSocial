@@ -1,9 +1,5 @@
 const Connexion = () => {
-  return (
-    <div>
-      <h1>connexion</h1>
-    </div>
-  );
+  return <div>connexion</div>;
 };
 
 export default Connexion;
