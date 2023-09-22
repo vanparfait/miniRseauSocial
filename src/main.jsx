@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Dashboard from "./pages/dashboard/Dashboard.jsx";
 import Inscription from "./pages/inscription/Inscription.jsx";
 import Connexion from "./pages/connexion/Connexion.jsx";
+import { Toaster } from "react-hot-toast";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
+    <Toaster />
+
     <RouterProvider router={router} />
   </React.StrictMode>
 );

@@ -1,23 +1,30 @@
 {
-  "utilisateurs":[
-      {
-          "id":1,
-          "nom":"Fokou",
-          "prenom":"parfait",
-          "email":"parfait@gmail.com"
-      },
-      {
-          "id":2,
-          "nom":"Fokou",
-          "prenom":"parfait",
-          "email":"parfait@gmail.com"
-      }
-  ],
-  "publication":[
+  "utilisateurs": [
     {
-      "id":1,
-      "titre":"vengeance",
-      "body":"jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+      "id": 1,
+      "nom": "Fokou",
+      "prenom": "parfait",
+      "email": "parfait@gmail.com"
+    },
+    {
+      "id": 2,
+      "nom": "Fokou",
+      "prenom": "parfait",
+      "email": "parfait@gmail.com"
+    },
+    {
+      "nomUtilisateur": "parfait",
+      "mailUtilisateur": "parfait@gmail.com",
+      "motDePasse": "123456",
+      "motDePasseConfirmation": "123456",
+      "id": 3
+    }
+  ],
+  "publication": [
+    {
+      "id": 1,
+      "titre": "vengeance",
+      "body": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
     }
   ]
 }
