@@ -18,6 +18,13 @@
       "motDePasse": "123456",
       "motDePasseConfirmation": "123456",
       "id": 3
+    },
+    {
+      "nomUtilisateur": "nguemechia",
+      "mailUtilisateur": "guemechiaparfait@gmail.com",
+      "motDePasse": "12345",
+      "motDePasseConfirmation": "12345",
+      "id": 4
     }
   ],
   "publication": [
