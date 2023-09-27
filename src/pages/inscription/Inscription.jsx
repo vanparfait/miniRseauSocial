@@ -2,8 +2,11 @@ import { Box, Button, Stack, TextField, Typography } from "@mui/material";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 const Inscription = () => {
+  const navigate = useNavigate();
+
   const {
     register,
     handleSubmit,
@@ -14,14 +17,26 @@ const Inscription = () => {
       toast.error("Les mots de passe ne correspondent pas");
     else {
       axios
-        .post("http://localhost:3000/utilisateurs", data)
+        .get(
+          `http://localhost:3000/utilisateurs?mailUtilisateur=${data.mailUtilisateur}`
+        )
         .then((res) => {
           console.log(res);
-          toast.success("Inscription reussie");
-        })
-        .catch((err) => {
-          console.log(err);
-          toast.error("une erreur est survenue");
+          if (res.data.length > 0) {
+            toast.error("Ce mot de passe existe deja");
+          } else {
+            axios
+              .post("http://localhost:3000/utilisateurs", data)
+              .then((res) => {
+                console.log(res);
+                toast.success("Inscription reussie");
+                navigate("/connexion");
+              })
+              .catch((err) => {
+                console.log(err);
+                toast.error("une erreur est survenue");
+              });
+          }
         });
     }
   };
