@@ -25,55 +25,26 @@
       "motDePasse": "12345",
       "motDePasseConfirmation": "12345",
       "id": 4
-    },
-    {
-      "nomUtilisateur": "oooooooooo",
-      "mailUtilisateur": "ccccc@tt",
-      "motDePasse": "555555",
-      "motDePasseConfirmation": "555555",
-      "id": 5
-    },
-    {
-      "nomUtilisateur": "oooooooooo",
-      "mailUtilisateur": "ccccc@tt",
-      "motDePasse": "555555",
-      "motDePasseConfirmation": "555555",
-      "id": 6
-    },
-    {
-      "nomUtilisateur": "oooooooooo",
-      "mailUtilisateur": "ccccc@tt",
-      "motDePasse": "555555",
-      "motDePasseConfirmation": "555555",
-      "id": 7
-    },
-    {
-      "nomUtilisateur": "oooooooooo",
-      "mailUtilisateur": "ccccc@tt",
-      "motDePasse": "555555",
-      "motDePasseConfirmation": "555555",
-      "id": 8
-    },
-    {
-      "nomUtilisateur": "oooooooooo",
-      "mailUtilisateur": "ccccc555@tt",
-      "motDePasse": "555555",
-      "motDePasseConfirmation": "555555",
-      "id": 9
-    },
-    {
-      "nomUtilisateur": "yyyyy",
-      "mailUtilisateur": "ccccc@ttjjj",
-      "motDePasse": "nnnnn",
-      "motDePasseConfirmation": "nnnnn",
-      "id": 10
     }
   ],
-  "publication": [
+  "publications": [
     {
-      "id": 1,
-      "titre": "vengeance",
-      "body": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+      "messagePublication": "je suis etudiante",
+      "URLImage": "https://img.freepik.com/photos-gratuite/jolie-femme-brune-debout-pointant-du-doigt_651396-3323.jpg?w=740&t=st=1695831136~exp=1695831736~hmac=a13b1948921ca47c7663be790dd29d097720136c7223fb0d25170f778cf559ba",
+      "idUtilsateur": 3,
+      "datePublication": "2023-09-27T16:17:48.100Z",
+      "likePublication": 0,
+      "auteur": "parfait",
+      "id": 1
+    },
+    {
+      "messagePublication": "je suis informaticien",
+      "URLImage": "https://img.freepik.com/photos-gratuite/vue-face-etudiant-sexe-masculin-portant-sac-dos-noir-tenant-cahiers-fichiers-mur-bleu_140725-42636.jpg?w=740&t=st=1695832095~exp=1695832695~hmac=f4639c6bec019e1e02b50b35de22ac12fc33a202fc5f6ed9ce5f6c87549cad03",
+      "idUtilsateur": 3,
+      "datePublication": "2023-09-27T16:29:05.919Z",
+      "likePublication": 0,
+      "auteur": "parfait",
+      "id": 2
     }
   ]
 }

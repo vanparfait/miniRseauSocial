@@ -9,10 +9,12 @@ const Inscription = () => {
 
   const {
     register,
+    reset,
     handleSubmit,
     formState: { errors },
   } = useForm();
   const onSubmit = (data) => {
+    console.log(errors);
     if (data.motDePasse != data.motDePasseConfirmation)
       toast.error("Les mots de passe ne correspondent pas");
     else {
@@ -30,6 +32,7 @@ const Inscription = () => {
               .then((res) => {
                 console.log(res);
                 toast.success("Inscription reussie");
+                reset();
                 navigate("/connexion");
               })
               .catch((err) => {

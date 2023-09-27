@@ -25,6 +25,7 @@ const Connexion = () => {
         `http://localhost:3000/utilisateurs?mailUtilisateur=${data.mailUtilisateur}&motDePasse=${data.motDePasse}`
       )
       .then((res) => {
+        console.log(errors);
         console.log(res);
         if (res.data.length > 0) {
           localStorage.setItem("utilisateur", JSON.stringify(res.data[0]));
