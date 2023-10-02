@@ -25,6 +25,13 @@
       "motDePasse": "12345",
       "motDePasseConfirmation": "12345",
       "id": 4
+    },
+    {
+      "nomUtilisateur": "sandrine",
+      "mailUtilisateur": "sandrine@gmail.com",
+      "motDePasse": "sandrine1998",
+      "motDePasseConfirmation": "sandrine1998",
+      "id": 5
     }
   ],
   "publications": [
@@ -45,6 +52,51 @@
       "likePublication": 0,
       "auteur": "parfait",
       "id": 2
+    },
+    {
+      "messagePublication": "lo bb",
+      "URLImage": "https://static.cdnpk.net/p/_next/static/media/creative.de89cf6f.jpg?w=1200&h=1920&q=75",
+      "idUtilsateur": 3,
+      "datePublication": "2023-09-27T16:32:42.389Z",
+      "likePublication": 0,
+      "auteur": "parfait",
+      "id": 3
+    },
+    {
+      "messagePublication": "nnnnnnnnnnnnnnnnnnnnnnnnnnn",
+      "URLImage": "https://static.cdnpk.net/p/_next/static/media/creative.de89cf6f.jpg?w=1200&h=1920&q=75",
+      "idUtilsateur": 5,
+      "datePublication": "2023-10-02T06:02:55.070Z",
+      "likePublication": 0,
+      "auteur": "sandrine",
+      "id": 4
+    },
+    {
+      "messagePublication": "jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj",
+      "URLImage": "https://img.freepik.com/photos-gratuite/vue-face-etudiant-sexe-masculin-portant-sac-dos-noir-tenant-cahiers-fichiers-mur-bleu_140725-42636.jpg?w=740&t=st=1695832095~exp=1695832695~hmac=f4639c6bec019e1e02b50b35de22ac12fc33a202fc5f6ed9ce5f6c87549cad03",
+      "idUtilsateur": 5,
+      "datePublication": "2023-10-02T06:31:41.843Z",
+      "likePublication": 0,
+      "auteur": "sandrine",
+      "id": 5
+    },
+    {
+      "messagePublication": "hhhhhhhhhhhhhhhhhhhh",
+      "URLImage": "https://static.cdnpk.net/p/_next/static/media/creative.de89cf6f.jpg?w=1200&h=1920&q=75",
+      "idUtilsateur": 5,
+      "datePublication": "2023-10-02T06:38:57.659Z",
+      "likePublication": 0,
+      "auteur": "sandrine",
+      "id": 6
+    },
+    {
+      "messagePublication": "momomomo",
+      "URLImage": "https://img.freepik.com/photos-gratuite/jolie-femme-brune-debout-pointant-du-doigt_651396-3323.jpg?w=740&t=st=1695831136~exp=1695831736~hmac=a13b1948921ca47c7663be790dd29d097720136c7223fb0d25170f778cf559ba",
+      "idUtilsateur": 5,
+      "datePublication": "2023-10-02T06:46:26.969Z",
+      "likePublication": 0,
+      "auteur": "sandrine",
+      "id": 7
     }
   ]
 }

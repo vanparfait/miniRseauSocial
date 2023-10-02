@@ -17,10 +17,10 @@ const Dashboard = () => {
       axios.get("http://localhost:3000/publications").then((res) => {
         //console.log(res.data);
         setPublications(res.data);
-        console.log(publications);
-      }, []);
+        //console.log(publications);
+      });
     }
-  });
+  }, []);
 
   return (
     <Box bgcolor={"#eef4ff"}>

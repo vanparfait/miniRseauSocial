@@ -1,0 +1,2 @@
+npm run dev : pour lancer le projet vite
+json-server --watch db.json : pour lancer mon fichier db.son
