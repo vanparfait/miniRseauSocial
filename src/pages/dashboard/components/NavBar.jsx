@@ -21,6 +21,11 @@ export default function NavBar() {
     setAnchorEl(null);
   };
 
+  const deconnexion = () => {
+    localStorage.removeItem("utilisateur");
+    window.location.replace("/connexion");
+  };
+
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
@@ -65,7 +70,7 @@ export default function NavBar() {
               onClose={handleClose}
             >
               <MenuItem onClick={handleClose}>Profile</MenuItem>
-              <MenuItem onClick={handleClose}>Deconnexion</MenuItem>
+              <MenuItem onClick={deconnexion}>Deconnexion</MenuItem>
             </Menu>
           </div>
         </Toolbar>

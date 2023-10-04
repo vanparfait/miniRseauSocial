@@ -30,7 +30,7 @@ const AjouterPublication = () => {
 
   const onSubmit = (data) => {
     console.log(errors);
-    // console.log(data);
+    console.log(data);
 
     const publication = {
       ...data,

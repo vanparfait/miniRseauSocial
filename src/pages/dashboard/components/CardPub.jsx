@@ -1,10 +1,14 @@
 import { Avatar, Box, IconButton, Stack, Typography } from "@mui/material";
-import { DeleteIcon } from "@mui/icons-material/Delete";
+//import { DeleteIcon } from "@mui/icons-material/Delete";
+import DeleteIcon from "@mui/icons-material/Delete";
+
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import axios from "axios";
 import toast from "react-hot-toast";
 
 const Card = ({ publication }) => {
+  const user = JSON.parse(localStorage.getItem("utilisateur"));
+
   const useQuery = useQueryClient();
   const mutation = useMutation({
     mutationFn: (id) => {
@@ -35,12 +39,14 @@ const Card = ({ publication }) => {
         <Typography color={"red"}>{publication.auteur}</Typography>
       </Stack>
       <Typography>{publication.messagePublication}</Typography>
-      <IconButton
-        arial-aria-label="delete"
-        onClick={() => supprimerPublication(publication.id)}
-      >
-        <DeleteIcon />
-      </IconButton>
+      {user.id === publication.idUtilsateur && (
+        <IconButton
+          arial-aria-label="delete"
+          onClick={() => supprimerPublication(publication.id)}
+        >
+          <DeleteIcon />
+        </IconButton>
+      )}
       <img
         src={publication.URLImage}
         style={{ width: "100%", borderRadius: 5 }}
